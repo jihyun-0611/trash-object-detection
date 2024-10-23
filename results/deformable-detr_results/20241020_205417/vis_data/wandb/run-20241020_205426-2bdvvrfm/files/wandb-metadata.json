@@ -1,0 +1,49 @@
+{
+  "os":  "Linux-5.4.0-99-generic-x86_64-with-glibc2.31",
+  "python":  "3.10.13",
+  "startedAt":  "2024-10-20T11:54:26.553648Z",
+  "args":  [
+    "configs/trash/deformable-detr_r50_16xb2-50e_coco.py",
+    "results.pkl",
+    "deformable-detr_results",
+    "--topk",
+    "50"
+  ],
+  "program":  "/data/ephemeral/home/mmdetection/tools/analysis_tools/analyze_results.py",
+  "codePath":  "tools/analysis_tools/analyze_results.py",
+  "git":  {
+    "remote":  "https://github.com/open-mmlab/mmdetection.git",
+    "commit":  "cfd5d3a985b0249de009b67d04f37263e11cdf3d"
+  },
+  "root":  "/data/ephemeral/home/mmdetection/deformable-detr_results/20241020_205417/vis_data",
+  "host":  "instance-12567",
+  "username":  "root",
+  "executable":  "/data/ephemeral/conda_envs/mmd3/bin/python",
+  "codePathLocal":  "tools/analysis_tools/analyze_results.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "gpu":  "Tesla V100-SXM2-32GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "52573995008",
+      "used":  "43153580032"
+    }
+  },
+  "memory":  {
+    "total":  "94903173120"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla V100-SXM2-32GB",
+      "memoryTotal":  "34359738368",
+      "cudaCores":  5120,
+      "architecture":  "Volta"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}
